@@ -1,0 +1,81 @@
+body {
+  background-color: #F5F8FA;
+}
+
+video#backvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background: url(http://www.burakaydemir.com/Images/Bokeh-Tov.jpg) no-repeat;
+    background-size: contain;
+}
+
+.vert {
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.colvert {
+  margin-left: 0;
+}
+
+.quote-box {
+/*   margin: 25% auto auto; */
+  padding: 20px;
+  background: rgba(51, 51, 51, 0.9);
+  color: #EEE;
+  border-radius: 7px;
+  box-shadow: 2px 2px 5px #2D2D2D;
+  height: 50%;
+}
+
+blockquote {
+  width: 85%;
+  margin: 20px auto;
+  padding-bottom: 0;
+  border-left-color: #ADB8C1;
+}
+
+#quote-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
+}
+
+#quote-footer {
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+}
+
+#tweet {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  background: #3196BA;
+}
+
+#newquote {
+  margin-bottom: 5px;
+}
+
+blockquote footer {
+  color: #ADB8C1;
+}
+
+.myname {
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: #333;
+}
+
+a, a:hover {
+  color: #F1686F;
+}
